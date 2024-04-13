@@ -14,4 +14,15 @@ class PrototypeUnitTest {
         assertNotEquals(originalSheep.name, clonedSheep.name)
         assertNotEquals(originalSheep.category, clonedSheep.category)
     }
+
+    @Test
+    fun `Tes Prototype Pattern with Book class`() {
+        val originalBook = Book("The Kotlin Way", "Jane Doe", mutableListOf("Intro", "Usage", "Advanced"))
+
+        val clonedBook = originalBook.clone() as Book
+        clonedBook.pages.add("Appendix")
+
+        assertNotEquals(originalBook, clonedBook)
+        assertNotEquals(originalBook.pages.size, clonedBook.pages.size)
+    }
 }
