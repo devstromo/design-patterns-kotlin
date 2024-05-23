@@ -31,7 +31,6 @@ class CompositeGraphic : Graphic {
     }
 }
 
-// Usage
 fun main() {
     val dot1 = Dot(1, 2)
     val dot2 = Dot(3, 4)
@@ -44,5 +43,5 @@ fun main() {
     composite2.add(composite1)
     composite2.add(Dot(5, 6))
 
-    composite2.draw() // This will draw all the dots in the structure
+    composite2.draw()
 }
