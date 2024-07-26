@@ -1,7 +1,10 @@
 # Observer Pattern
+
 ## Behavioral Design Pattern
 
-The Observer Pattern is a foundational design pattern in software engineering, used to create a one-to-many dependency between objects. It's especially useful in scenarios where a system is made up of multiple components that operate independently but need to remain coordinated or synchronized.
+The Observer Pattern is a foundational design pattern in software engineering, used to create a one-to-many dependency
+between objects. It's especially useful in scenarios where a system is made up of multiple components that operate
+independently but need to remain coordinated or synchronized.
 
 ## Key Components
 
@@ -30,7 +33,8 @@ The Observer Pattern is a foundational design pattern in software engineering, u
 
 ## Advantages
 
-- **Loose Coupling:** The pattern promotes loose coupling between the subject and its observers. Observers can dynamically subscribe to or unsubscribe from the subject, allowing for flexibility and ease of maintenance.
+- **Loose Coupling:** The pattern promotes loose coupling between the subject and its observers. Observers can
+  dynamically subscribe to or unsubscribe from the subject, allowing for flexibility and ease of maintenance.
 
 ## Use Cases
 
@@ -39,7 +43,8 @@ The Observer Pattern is a foundational design pattern in software engineering, u
 
 ## Considerations
 
-- Proper management of the relationships between subjects and observers is crucial to avoid issues like memory leaks or performance bottlenecks.
+- Proper management of the relationships between subjects and observers is crucial to avoid issues like memory leaks or
+  performance bottlenecks.
 
 ## Reference
 

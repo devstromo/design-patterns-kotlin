@@ -2,7 +2,8 @@
 
 ## A Behavioral Design Pattern
 
-The State Design Pattern is a behavioral design pattern that allows an object to alter its behavior when its internal state changes. This pattern is used to encapsulate varying behavior for the same object, based on its internal state.
+The State Design Pattern is a behavioral design pattern that allows an object to alter its behavior when its internal
+state changes. This pattern is used to encapsulate varying behavior for the same object, based on its internal state.
 
 ## Key Concepts
 
@@ -32,7 +33,8 @@ The State Design Pattern is a behavioral design pattern that allows an object to
 
 ## Use Cases
 
-- Used when an object's behavior depends on its state, and it must change its behavior at runtime depending on that state.
+- Used when an object's behavior depends on its state, and it must change its behavior at runtime depending on that
+  state.
 - Examples include UI elements with distinct modes, workflow processes, or game characters with different states.
 
 ## Considerations
